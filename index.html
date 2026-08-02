@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal academic homepage of Your Name">
+  <meta name="author" content="Your Name">
+  <title>Your Name — Personal Homepage</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#profile" class="nav-logo gradient-text">YN</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#profile" class="nav-link">Profile</a></li>
+        <li><a href="#educations" class="nav-link">Educations</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#opensource" class="nav-link">Open Source</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#talks" class="nav-link">Talks</a></li>
+        <li><a href="#interests" class="nav-link">Interests</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ==================== PROFILE / HERO ==================== -->
+    <section id="profile" class="section hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-avatar">
+            <!-- TODO: Replace with your photo: <img src="assets/photo.jpg" alt="Your Name"> -->
+            <div class="avatar-placeholder">YN</div>
+          </div>
+          <h1 class="hero-name">Your Name</h1>
+          <p class="hero-title gradient-text">
+            <!-- TODO: Replace with your title / position -->
+            Ph.D. Candidate · Your University
+          </p>
+          <blockquote class="hero-quote">
+            <!-- TODO: Replace with your favorite quote or motto -->
+            "Your favorite quote or motto goes here."
+          </blockquote>
+          <p class="hero-bio">
+            <!-- TODO: Replace with your bio (2-4 sentences about your background, research interests, and current focus) -->
+            I am a researcher focused on [your research area]. My work spans [topics]. I am currently at [institution] working on [current projects].
+          </p>
+          <div class="hero-contact">
+            <!-- TODO: Replace href values with your actual contact links -->
+            <a href="mailto:your@email.com" class="contact-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              Email
+            </a>
+            <a href="https://scholar.google.com/" class="contact-link" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              Google Scholar
+            </a>
+            <a href="https://github.com/" class="contact-link" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/" class="contact-link" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg-gradient"></div>
+    </section>
+
+    <!-- ==================== EDUCATIONS ==================== -->
+    <section id="educations" class="section">
+      <div class="container">
+        <h2 class="section-title">📖 Educations</h2>
+        <div class="timeline">
+          <!-- TODO: Replace with your education entries. Copy/paste the timeline-item block for each entry. -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <span class="timeline-date">20XX — 20XX</span>
+              <h3>Ph.D. in Computer Science</h3>
+              <p>University Name, City, Country</p>
+              <!-- TODO: Add thesis title, advisor, etc. if desired -->
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <span class="timeline-date">20XX — 20XX</span>
+              <h3>M.E. in Computer Science</h3>
+              <p>University Name, City, Country</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <span class="timeline-date">20XX — 20XX</span>
+              <h3>B.E. in Computer Science</h3>
+              <p>University Name, City, Country</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WORK EXPERIENCE ==================== -->
+    <section id="work" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">💻 Work Experience</h2>
+        <div class="timeline">
+          <!-- TODO: Replace with your work experience entries -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <span class="timeline-date">20XX — Present</span>
+              <h3>Staff Engineer</h3>
+              <p>Company Name, Location</p>
+              <!-- TODO: Add a brief description of responsibilities -->
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <span class="timeline-date">20XX — 20XX</span>
+              <h3>Researcher</h3>
+              <p>Company Name, Location</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <span class="timeline-date">20XX — 20XX</span>
+              <h3>Research Intern</h3>
+              <p>Company Name, Location</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECT EXPERIENCE ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">📄 Project Experience</h2>
+        <div class="card-grid">
+          <!-- TODO: Replace with your project entries. Copy/paste the card block for each. -->
+          <div class="card reveal">
+            <span class="card-badge">Agent</span>
+            <span class="card-date">20XX — 20XX</span>
+            <h3>Project Name Here</h3>
+            <p>Project description goes here. Describe what you built, the technologies used, and key outcomes or results.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-badge">AIGC</span>
+            <span class="card-date">20XX — 20XX</span>
+            <h3>Project Name Here</h3>
+            <p>Project description goes here. Describe what you built, the technologies used, and key outcomes or results.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-badge">Computer Vision</span>
+            <span class="card-date">20XX — 20XX</span>
+            <h3>Project Name Here</h3>
+            <p>Project description goes here. Describe what you built, the technologies used, and key outcomes or results.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-badge">Autonomous Driving</span>
+            <span class="card-date">20XX — 20XX</span>
+            <h3>Project Name Here</h3>
+            <p>Project description goes here. Describe what you built, the technologies used, and key outcomes or results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OPEN SOURCE PROJECTS ==================== -->
+    <section id="opensource" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">📈 Highlighted Open Source Projects</h2>
+        <div class="card-grid">
+          <!-- TODO: Replace with your open source projects -->
+          <div class="card card-featured reveal">
+            <span class="card-badge badge-conf">AAAI 20XX</span>
+            <h3>Project Name</h3>
+            <p class="card-authors">Author A, Author B, Author C, Author D</p>
+            <p>A brief description of this open source project, its capabilities, and why it's notable.</p>
+            <div class="card-links">
+              <a href="#" class="btn btn-sm">📄 Paper</a>
+              <a href="#" class="btn btn-sm">🌐 Project Page</a>
+              <a href="#" class="btn btn-sm">💻 Code</a>
+            </div>
+          </div>
+          <div class="card card-featured reveal">
+            <span class="card-badge badge-conf">CVPR 20XX</span>
+            <h3>Project Name</h3>
+            <p class="card-authors">Author A, Author B, Author C</p>
+            <p>A brief description of this open source project, its capabilities, and why it's notable.</p>
+            <div class="card-links">
+              <a href="#" class="btn btn-sm">📄 Paper</a>
+              <a href="#" class="btn btn-sm">🌐 Project Page</a>
+              <a href="#" class="btn btn-sm">💻 Code</a>
+            </div>
+          </div>
+          <div class="card card-featured reveal">
+            <span class="card-badge badge-conf">AAAI 20XX</span>
+            <h3>Project Name</h3>
+            <p class="card-authors">Author A, Author B</p>
+            <p>A brief description of this open source project, its capabilities, and why it's notable.</p>
+            <div class="card-links">
+              <a href="#" class="btn btn-sm">📄 Paper</a>
+              <a href="#" class="btn btn-sm">🌐 Project Page</a>
+              <a href="#" class="btn btn-sm">💻 Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PUBLICATIONS ==================== -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title">📝 Publications</h2>
+
+        <!-- TODO: Replace with your journal papers -->
+        <div class="pub-category reveal">
+          <h3 class="pub-category-title">Journal Papers</h3>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <span class="pub-title">Paper Title Goes Here: A Comprehensive Study of Something Important</span>
+              <span class="pub-authors">Author A, Author B, Author C, Author D</span>
+              <span class="pub-venue"><em>Journal of Important Research</em>, vol. XX, no. X, pp. XXX-XXX, 20XX</span>
+              <a href="#" class="pub-link">[PDF]</a>
+            </li>
+            <li class="pub-item">
+              <span class="pub-title">Another Paper Title: Novel Approaches to the Problem</span>
+              <span class="pub-authors">Author A, Author B</span>
+              <span class="pub-venue"><em>Transactions on Something</em>, vol. XX, pp. XXX-XXX, 20XX</span>
+              <a href="#" class="pub-link">[PDF]</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TODO: Replace with your conference papers -->
+        <div class="pub-category reveal">
+          <h3 class="pub-category-title">Conference Papers</h3>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <span class="pub-title">Conference Paper Title Goes Here</span>
+              <span class="pub-authors">Author A, Author B, Author C</span>
+              <span class="pub-venue"><em>Proceedings of CVPR</em>, 20XX</span>
+              <a href="#" class="pub-link">[PDF]</a>
+            </li>
+            <li class="pub-item">
+              <span class="pub-title">Another Conference Paper Title</span>
+              <span class="pub-authors">Author A, Author B, Author C, Author D</span>
+              <span class="pub-venue"><em>Proceedings of ICCV</em>, 20XX</span>
+              <a href="#" class="pub-link">[PDF]</a>
+            </li>
+            <li class="pub-item">
+              <span class="pub-title">Yet Another Conference Paper</span>
+              <span class="pub-authors">Author A, Author B</span>
+              <span class="pub-venue"><em>Proceedings of NeurIPS</em>, 20XX</span>
+              <a href="#" class="pub-link">[PDF]</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TODO: Replace with your arXiv papers (or remove this category) -->
+        <div class="pub-category reveal">
+          <h3 class="pub-category-title">ArXiv Preprints</h3>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <span class="pub-title">Preprint Title Goes Here</span>
+              <span class="pub-authors">Author A, Author B, Author C</span>
+              <span class="pub-venue">arXiv:XXXX.XXXXX, 20XX</span>
+              <a href="#" class="pub-link">[PDF]</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TODO: Replace with your patents (or remove this category) -->
+        <div class="pub-category reveal">
+          <h3 class="pub-category-title">Patents</h3>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <span class="pub-title">Patent Title: A Method for Something Useful</span>
+              <span class="pub-authors">Inventor A, Inventor B</span>
+              <span class="pub-venue">Patent No. CNXXXXXXXXA, 20XX</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-title">Another Patent Title: System and Method for Something</span>
+              <span class="pub-authors">Inventor A, Inventor B, Inventor C</span>
+              <span class="pub-venue">Patent No. USXXXXXXXXB2, 20XX</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RESEARCH PROJECTS ==================== -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">🔍 Research Projects</h2>
+        <div class="card-grid">
+          <!-- TODO: Replace with your research projects -->
+          <div class="card reveal">
+            <span class="card-date">20XX — 20XX</span>
+            <span class="card-role">Role: Principal Investigator</span>
+            <h3>Research Project Title Here</h3>
+            <p class="card-funding">Funding: National Natural Science Foundation of China (Grant No. XXXXXXXX)</p>
+            <p>Brief description of the research project, its objectives, methodology, and key findings.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-date">20XX — 20XX</span>
+            <span class="card-role">Role: Co-Investigator</span>
+            <h3>Research Project Title Here</h3>
+            <p class="card-funding">Funding: Industry Collaboration Grant</p>
+            <p>Brief description of the research project, its objectives, methodology, and key findings.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-date">20XX — 20XX</span>
+            <span class="card-role">Role: Key Participant</span>
+            <h3>Research Project Title Here</h3>
+            <p class="card-funding">Funding: University Research Fund</p>
+            <p>Brief description of the research project, its objectives, methodology, and key findings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INVITED TALKS ==================== -->
+    <section id="talks" class="section">
+      <div class="container">
+        <h2 class="section-title">💬 Invited Talks</h2>
+        <div class="talks-list">
+          <!-- TODO: Replace with your invited talks -->
+          <div class="talk-item reveal">
+            <span class="talk-date">20XX-XX-XX</span>
+            <div class="talk-info">
+              <h3>Talk Title Goes Here: An Overview of Our Recent Work</h3>
+              <p>Venue / Event Name, Location</p>
+              <div class="talk-links">
+                <a href="#" class="btn btn-sm">📊 Slides</a>
+                <a href="#" class="btn btn-sm">🎥 Recording</a>
+              </div>
+            </div>
+          </div>
+          <div class="talk-item reveal">
+            <span class="talk-date">20XX-XX-XX</span>
+            <div class="talk-info">
+              <h3>Another Talk Title: Key Insights from Our Research</h3>
+              <p>Venue / Event Name, Location</p>
+              <div class="talk-links">
+                <a href="#" class="btn btn-sm">📊 Slides</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTERESTS ==================== -->
+    <section id="interests" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">🔅 Interests</h2>
+        <div class="tag-cloud reveal">
+          <!-- TODO: Replace with your interests. Add or remove <span class="tag"> elements. -->
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Open Source</span>
+          <span class="tag">Reading</span>
+          <span class="tag">Photography</span>
+          <span class="tag">Hiking</span>
+          <span class="tag">Coffee</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Your Name. Built with ❤️</p>
+      <p class="footer-credit">
+        <!-- TODO: Update the year and name -->
+        Last updated: July 2026
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
